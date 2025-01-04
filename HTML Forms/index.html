@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <form action="" method="get" class="form-main">
+        <p>Registration Form</p>
+        <div class="form">
+            <label for="name">First Name:</label>
+            <input type="name" name="name" id="name">
+            <required />
+        </div>
+        <div class="form">
+            <label for="name">Last Name:</label>
+            <input type="name" name="name" id="name">
+            <required />
+        </div>
+        <div class="form">
+            <label for="Email">Email:</label>
+            <input type="email" name="email" id="email">
+            <required />
+        </div>
+        <div class="form">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <required />
+        </div>
+        <div class="form">
+            <label for="date">DOB:</label>
+            <input type="date" name="date" id="date">
+            <required />
+        </div>
+        <div class="form">
+            <label for="gender">Gender:</label>
+            <select type="gender" name="gender" id="gender">
+                <option value="" disabled selected>--Select--</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="transgender">Transgender</option>
+                <required />
+            </select>
+        </div>
+        <div class="form">
+            <input type="submit" value="Submit     ">
+        </div>
+    </form>
+</body>
+
+</html>

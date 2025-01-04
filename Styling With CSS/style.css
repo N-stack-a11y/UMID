@@ -1,0 +1,25 @@
+*{
+    margin: 100px 100px 100px 100px;
+    padding: 0;
+    font-family: serif;
+}
+.css{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    width: 55%;
+    background: #CE5937;
+    background: -moz-linear-gradient(left, #CE5937 0%, #1C6EA4 51%, #C59237 100%);
+    background: -webkit-linear-gradient(left, #CE5937 0%, #1C6EA4 51%, #C59237 100%);
+    background: linear-gradient(to right, #CE5937 0%, #1C6EA4 51%, #C59237 100%);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+p{
+    color: white;
+    justify-content: center;
+    margin: 10px 100px 100px 100px;
+}
